@@ -229,12 +229,12 @@ li {
 .friend_arrow {
   width: 52px;
   height: 52px;
-  background-image: url('../../assets/icons/button_arrow.png');
+  background-image: url('./assets/icons/button_arrow.png');
   transition: background-image 1s;
   cursor: pointer;
 }
 .friend_arrow:hover {
-  background-image: url('../../assets/icons/button_arrow_hover.png');
+  background-image: url('./assets/icons/button_arrow_hover.png');
 }
 
 .friend_arrow_rg {
