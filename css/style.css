@@ -1,0 +1,20 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+
+h3 {
+  font: 400 3.5rem/4.5rem Georgia;
+  letter-spacing: 1.9px;
+  color: #545454;
+  margin: 0;
+}
+
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
