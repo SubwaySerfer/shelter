@@ -1,6 +1,3 @@
-
-
-
 h4 {
   font: 400 2rem/1 Georgia;
   letter-spacing: 0.06em;
@@ -15,20 +12,20 @@ h4 {
   display: none;
 }
 .scale_class,
-.navigation__link,
+.navigation-link__pets,
 .header_logo,
 .button {
   transition: 0.35s ease-in-out;
   transform: scale(1);
 }
 .scale_class:hover,
-.navigation__link:hover,
+.navigation-link__pets:hover,
 .header_logo:hover,
 .button:hover {
   transform: scale(1.1);
 }
 
-.navigation__link:hover {
+.navigation-link__pets:hover {
   color: #292929;
 }
 
@@ -58,7 +55,7 @@ h4 {
 }
 
 
-.header_wrapper__pets {
+.header-wrapper__pets {
   background-color: #ffffff;
   height: 120px;
   display: flex;

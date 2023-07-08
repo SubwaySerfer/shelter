@@ -1,10 +1,6 @@
-
-
 li {
   list-style-type: none;
 }
-
-
 
 .burger_nav {
   display: none;
@@ -26,7 +22,7 @@ li {
 }
 
 .promo,
-header {
+.header_main {
   background-image: linear-gradient(to right, #5b483a, #262425);
 }
 
@@ -54,6 +50,19 @@ header {
   line-height: 1.7rem;
   text-indent: 4px;
   margin: 0;
+}
+
+.navigation__link {
+  list-style-type: none;
+  font: 400 1.5rem/2.4rem Arial;
+  display: flex;
+  color: #cdcdcd;
+  align-items: flex-end;
+  padding-bottom: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  transform: scale(1);
+  transition: 0.35s ease-in-out;
 }
 
 

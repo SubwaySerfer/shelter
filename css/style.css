@@ -4,6 +4,7 @@ html {
 }
 
 
+
 h3 {
   font: 400 3.5rem/4.5rem Georgia;
   letter-spacing: 1.9px;
@@ -19,10 +20,10 @@ a {
   text-decoration: none;
 }
 
-.main-container{
+/* .main-container{
   width: 100vw;
   height: 100vh;
-}
+} */
 
 .wrapper {
   margin: auto;
