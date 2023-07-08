@@ -18,3 +18,8 @@ h6 {
 a {
   text-decoration: none;
 }
+
+.main-container{
+  width: 100vw;
+  height: 100vh;
+}

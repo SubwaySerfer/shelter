@@ -1,137 +1,224 @@
-<template>
-        <header>
-          <div class="wrapper header_wrapper">
-            <div class="header_logo-line">
-              <h3 class="header_logo">
-                <a href="../main/index.html">Cozy House</a>
-              </h3>
-              <p class="header_subline">Shelter for pets in Boston</p>
-            </div>
-            <nav class="header__navigation">
-              <ul class="navigation">
-                <li class="navigation__link">
-                  <a href="../main/index.html" class="navigation__link"
-                    >About the shelter</a
-                  >
-                </li>
-                <li class="navigation__link active_nav_link">
-                  <a href="" class="navigation__link">Our pets</a>
-                </li>
-    
-                <li class="navigation__link">
-                  <a href="../main/index.html#help" class="navigation__link"
-                    >Help the shelter</a
-                  >
-                </li>
-    
-                <li class="navigation__link">
-                  <a href="#contacts" class="navigation__link">Contacts</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="burger_nav">
-              <div class="burger_el"></div>
-              <div class="burger_el"></div>
-              <div class="burger_el"></div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../assets/normalize.css" />
+    <link rel="icon" href="../../assets/icons/favicon.ico" />
+    <title>Our Pets</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper header_wrapper">
+        <div class="header_logo-line">
+          <h3 class="header_logo">
+            <a href="../main/index.html">Cozy House</a>
+          </h3>
+          <p class="header_subline">Shelter for pets in Boston</p>
+        </div>
+        <nav class="header__navigation">
+          <ul class="navigation">
+            <li class="navigation__link">
+              <a href="../main/index.html" class="navigation__link"
+                >About the shelter</a
+              >
+            </li>
+            <li class="navigation__link active_nav_link">
+              <a href="" class="navigation__link">Our pets</a>
+            </li>
+
+            <li class="navigation__link">
+              <a href="../main/index.html#help" class="navigation__link"
+                >Help the shelter</a
+              >
+            </li>
+
+            <li class="navigation__link">
+              <a href="#contacts" class="navigation__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger_nav">
+          <div class="burger_el"></div>
+          <div class="burger_el"></div>
+          <div class="burger_el"></div>
+        </div>
+      </div>
+    </header>
+    <section class="wrapper pets_wrapper">
+      <h1 class="pets_h1">
+        Our friends who <br class="friends_br" />are looking for a house
+      </h1>
+      <div class="pets_content">
+        <!-- <div class="pets_card">
+          <img
+            src="../../assets/images/pets/pets-katrine-2.png"
+            alt="pet image"
+          />
+          <h4>Katrine</h4>
+          <a class="button">
+            <span>Learn more</span>
+          </a>
+        </div>
+
+        <div class="pets_card">
+          <img
+            src="../../assets/images/pets/pets-jennifer.png"
+            alt="pet image"
+          />
+          <h4>Jennifer</h4>
+          <a class="button">
+            <span>Learn more</span>
+          </a>
+        </div>
+
+        <div class="pets_card">
+          <img src="../../assets/images/pets/pets-woody.png" alt="pet image" />
+          <h4>Woody</h4>
+          <a class="button">
+            <span>Learn more</span>
+          </a>
+        </div>
+
+        <div class="pets_card pets_card_none_mb">
+          <img
+            src="../../assets/images/pets/pets-katrine-1.png"
+            alt="pet image"
+          />
+          <h4>Sophia</h4>
+          <a class="button">
+            <span>Learn more</span>
+          </a>
+        </div>
+
+        <div class="pets_card pets_card_none_mb">
+          <img src="../../assets/images/pets/pets-timmy.png" alt="pet image" />
+          <h4>Timmy</h4>
+          <a class="button">
+            <span>Learn more</span>
+          </a>
+        </div>
+
+        <div class="pets_card pets_card_none_mb">
+          <img src="../../assets/images/pets/pets-charly.png" alt="pet image" />
+          <h4>Charly</h4>
+          <a class="button">
+            <span>Learn more</span>
+          </a>
+        </div>
+
+        <div class="pets_card pets_card_none_tb">
+          <img
+            src="../../assets/images/pets/pets-scarlet.png"
+            alt="pet image"
+          />
+          <h4>Scarlett</h4>
+          <a class="button"><span>Learn more</span> </a>
+        </div>
+
+        <div class="pets_card pets_card_none_tb">
+          <img
+            src="../../assets/images/pets/pets-katrine.png"
+            alt="pet image"
+          />
+          <h4>Freddie</h4>
+          <a class="button"><span>Learn more</span> </a>
+        </div> -->
+      </div>
+      <div class="pets_slider">
+        <div class="slider" id="double_arrow_prev">
+          <div class="slider_prev_double slider_arrow">
+            <div class="arrow-3-top arrow_prev"></div>
+            <div class="arrow-3-bottom arrow_prev"></div>
+            <div class="arrow-3-top arrow_double_top arrow_prev"></div>
+            <div class="arrow-3-bottom arrow_double_bottom arrow_prev"></div>
           </div>
-        </header>
-        <section class="wrapper pets_wrapper">
-          <h1 class="pets_h1">
-            Our friends who <br class="friends_br" />are looking for a house
-          </h1>
-          <div class="pets_content">
+        </div>
+
+        <div class="slider" id="once_prev">
+          <div class="slider_prev slider_arrow">
+            <div class="arrow-2-top arrow_prev"></div>
+            <div class="arrow-2-bottom arrow_prev"></div>
           </div>
-          <div class="pets_slider">
-            <div class="slider" id="double_arrow_prev">
-              <div class="slider_prev_double slider_arrow">
-                <div class="arrow-3-top arrow_prev"></div>
-                <div class="arrow-3-bottom arrow_prev"></div>
-                <div class="arrow-3-top arrow_double_top arrow_prev"></div>
-                <div class="arrow-3-bottom arrow_double_bottom arrow_prev"></div>
-              </div>
-            </div>
-    
-            <div class="slider" id="once_prev">
-              <div class="slider_prev slider_arrow">
-                <div class="arrow-2-top arrow_prev"></div>
-                <div class="arrow-2-bottom arrow_prev"></div>
-              </div>
-            </div>
-    
-            <div class="slider slider_main">
-              <a href="#" class="slider_num"></a>
-            </div>
-            <div class="slider" id="once_next">
-              <div class="slider_next slider_arrow">
-                <div class="arrow-2-top"></div>
-                <div class="arrow-2-bottom"></div>
-              </div>
-            </div>
-    
-            <div class="slider" id="double_arrow_next">
-              <div class="slider_next_double slider_arrow">
-                <div class="arrow-3-top"></div>
-                <div class="arrow-3-bottom"></div>
-                <div class="arrow-3-top arrow_double_top"></div>
-                <div class="arrow-3-bottom arrow_double_bottom"></div>
-              </div>
-            </div>
+        </div>
+
+        <div class="slider slider_main">
+          <a href="#" class="slider_num"></a>
+        </div>
+        <div class="slider" id="once_next">
+          <div class="slider_next slider_arrow">
+            <div class="arrow-2-top"></div>
+            <div class="arrow-2-bottom"></div>
           </div>
-        </section>
-        <footer id="contacts">
-          <div class="wrapper footer_wrapper">
-            <div class="footer_questions footer_content">
-              <h3 class="footer_h3">For questions and suggestions</h3>
-              <div class="footer_block scale_class">
-                <img src="../assets/icons/icon-email.svg" alt="icon email" />
-                <a href="mailto:email@shelter.com" target="_blank"
-                  >email@shelter.com</a
-                >
-              </div>
-              <div class="footer_block scale_class">
-                <img src="../assets/icons/icon-phone.svg" alt="icon phone" /><a
-                  href="tel:+136745677554"
-                  target="_blank"
-                  >+13 674 567 75 54</a
-                >
-              </div>
-            </div>
-            <div class="footer_location footer_content">
-              <h3 class="footer_h3">We are waiting for your visit</h3>
-              <div class="footer_block scale_class">
-                <img src="../assets/icons/icon-marker.svg" alt="icon marker" />
-                <a
-                  href="https://www.google.com/maps/place/Monument+to+Albert+Camus/@48.3244625,3.0820716,18.97z/data=!4m14!1m7!3m6!1s0x47ef6af8e304ee1f:0x2e5e75983331b28c!2sMonument+to+Albert+Camus!8m2!3d48.3244497!4d3.08232!16s%2Fg%2F11fztqpxnb!3m5!1s0x47ef6af8e304ee1f:0x2e5e75983331b28c!8m2!3d48.3244497!4d3.08232!16s%2Fg%2F11fztqpxnb"
-                  target="_blank"
-                  >1 Central Street, Boston (entrance from the store)</a
-                >
-              </div>
-              <div class="footer_block scale_class sec_location">
-                <div class="footer_block scale_class">
-                  <img
-                    src="../assets/icons/icon-marker-1.svg"
-                    alt="icon market"
-                  /><a href="https://goo.gl/maps/SQEacFiShvM2a3mR8" target="_blank"
-                    >18 South Park, London</a
-                  >
-                </div>
-              </div>
-            </div>
-            <img
-              src="../assets/images/footer-puppy.png"
-              alt="cute puppy"
-              class="footer_puppy"
-            />
+        </div>
+
+        <div class="slider" id="double_arrow_next">
+          <div class="slider_next_double slider_arrow">
+            <div class="arrow-3-top"></div>
+            <div class="arrow-3-bottom"></div>
+            <div class="arrow-3-top arrow_double_top"></div>
+            <div class="arrow-3-bottom arrow_double_bottom"></div>
           </div>
-        </footer>
-        <div class="popup">
-          <div class="popup_content">
-            <div class="popup_close">
-              <div class="line_1"></div>
-              <div class="line_2"></div>
+        </div>
+      </div>
+    </section>
+    <footer id="contacts">
+      <div class="wrapper footer_wrapper">
+        <div class="footer_questions footer_content">
+          <h3 class="footer_h3">For questions and suggestions</h3>
+          <div class="footer_block scale_class">
+            <img src="../../assets/icons/icon-email.svg" alt="icon email" />
+            <a href="mailto:email@shelter.com" target="_blank"
+              >email@shelter.com</a
+            >
+          </div>
+          <div class="footer_block scale_class">
+            <img src="../../assets/icons/icon-phone.svg" alt="icon phone" /><a
+              href="tel:+136745677554"
+              target="_blank"
+              >+13 674 567 75 54</a
+            >
+          </div>
+        </div>
+        <div class="footer_location footer_content">
+          <h3 class="footer_h3">We are waiting for your visit</h3>
+          <div class="footer_block scale_class">
+            <img src="../../assets/icons/icon-marker.svg" alt="icon marker" />
+            <a
+              href="https://www.google.com/maps/place/Monument+to+Albert+Camus/@48.3244625,3.0820716,18.97z/data=!4m14!1m7!3m6!1s0x47ef6af8e304ee1f:0x2e5e75983331b28c!2sMonument+to+Albert+Camus!8m2!3d48.3244497!4d3.08232!16s%2Fg%2F11fztqpxnb!3m5!1s0x47ef6af8e304ee1f:0x2e5e75983331b28c!8m2!3d48.3244497!4d3.08232!16s%2Fg%2F11fztqpxnb"
+              target="_blank"
+              >1 Central Street, Boston (entrance from the store)</a
+            >
+          </div>
+          <div class="footer_block scale_class sec_location">
+            <div class="footer_block scale_class">
+              <img
+                src="../../assets/icons/icon-marker-1.svg"
+                alt="icon market"
+              /><a href="https://goo.gl/maps/SQEacFiShvM2a3mR8" target="_blank"
+                >18 South Park, London</a
+              >
             </div>
           </div>
         </div>
-        
-      </template>
+        <img
+          src="../../assets/images/footer-puppy.png"
+          alt="cute puppy"
+          class="footer_puppy"
+        />
+      </div>
+    </footer>
+    <div class="popup">
+      <div class="popup_content">
+        <div class="popup_close">
+          <div class="line_1"></div>
+          <div class="line_2"></div>
+        </div>
+        <!-- <div class="popup_card"></div> -->
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
